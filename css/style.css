@@ -1,0 +1,261 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    background-color: #eff0f3;
+    color: #2a2a2a;
+}
+.navbar-contact-email {
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    margin: 0;
+}
+.bg-light {
+    background-color: #eff0f3 !important;
+    color: #2a2a2a;
+}
+.rico {
+    color: #2a2a2a;
+    font-weight: bold;
+}
+nav {
+    min-height: 5rem;
+    background-color: #abd1c6;
+}
+.navbar-brand {
+    font-size: 3rem;
+    line-height: 2rem;
+    padding-top: ;
+}
+nav li {
+    padding-left: 2rem;
+}
+.heightblock {
+    height: 4.4rem;
+    background-color: transparent;
+}
+#carouselAcceuil {
+    z-index: -1;
+    opacity: 0.8;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.carousel-wrapper {
+    position: relative;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.overlaying-text {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    bottom: 40%;
+    color: #fffffe;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.p-brand {
+    font-weight: bold;
+    font-size: 5rem;
+}
+.icon {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.icon i {
+    position: absolute;
+    bottom: 2rem;
+    opacity: 0.8;
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+    color:  #2a2a2a;
+    transition: all 0.2s ease;
+    opacity: 0.95;
+}
+a:hover {
+    color: #ff8e3c;
+    transform: scale(1.02);
+}
+span {
+color:#ff8e3c;
+font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #2a2a2a;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#ff8e3c;
+}
+.nosservicestitle {
+    font-size: 3rem;
+}
+
+.nosservices .card-header {
+    background-color:  #ff8e3c;
+    letter-spacing: 0.4rem;
+}
+.nosservices .card-header span{
+    color: #fffffe;
+}
+
+.card {
+    border-radius: 5px;
+    margin: 2rem;
+}
+.box {
+    padding: 2rem;
+}
+.overlaying-text small {
+    color:#2a2a2a;
+    font-weight: bold;
+    opacity: 0.75;
+}
+.card-body ul li{
+    list-style-type: none;
+}
+.plusdinfo {
+    background-color:#ff8e3c;
+}
+.card-header {
+    font-size: 1.7rem;
+}
+.plusdinfo .card-body p{
+    font-size: 1.3rem;
+}
+.plusdinfo {
+    overflow: hidden;
+}
+.plusdinfotext {
+    text-align: center;
+}
+.plusdinfotext .card{
+    max-height: 30rem;
+    max-width: 50rem;
+    overflow: auto;
+    padding: 1rem;
+}
+.plusdinfo .card {
+    border-radius: inherit;
+}
+.plusdinfo .card .myButton {
+    color: #fffffe;
+    font-weight: bold;
+    padding: 0.6rem;
+    border-radius: 10px;
+    background-color: #ff8e3c;
+    border: #ff8e3c;
+    text-decoration: none;
+}
+.footer {
+    background-color: #ff8e3c;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1rem;
+    color: #fffffe;
+
+}
+
+.footer .col h2{
+    font-size: 2rem;
+
+}
+
+.footer .darkshade{
+color: #2a2a2a;
+}
+.footer .col {
+    padding: 1rem;
+}
+.myCardHeader {
+    font-size: 2rem;
+}
+.btn-warning {
+    font-size: 1.2rem;
+    color: #fffffe;
+    background-color: #ff8e3c;
+    transition: all 0.3s ease;
+    border: #ff8e3c;
+}
+.btn-warning:hover {
+    transform: scale(0.95);
+    background-color:#FFA135;
+    color: #fffffe;
+    border: #FFA135;
+}
+.wrapper {
+    max-width: 35rem;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 3rem;
+}
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: #ff8e3c;
+    font-weight: bold;
+}
+.wrapper .input_field {
+    margin-bottom: 0.1rem;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+width: 100%;
+border: 0.1rem solid #e0e0e0;
+padding: 0.5rem;
+}
+.wrapper .input_field input[type="text"]{
+    margin-bottom: 0.5rem;
+}
+.wrapper textarea{
+height: 8rem;
+resize: none;
+}
+.wrapper .btn{
+    width: 100%;
+}
+.wrapper .btn input[type="submit"]{
+    color: #fffffe;
+    border: 0;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    background:#ff8e3c;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.wrapper .btn input[type="submit"]:hover{
+    transform: scale(0.985);
+}
+.wrapper #error_message{
+    margin-bottom: 2rem;
+    padding: 0rem;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: all 0.5s ease;
+}
